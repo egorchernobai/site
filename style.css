@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'win95';
+    src: url('W95FA.otf') format('opentype');
+}
+
+body{
+    background-color: #018281;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main{
+    height: 220px;
+    width: 350px;
+    padding-top: 3em;
+    background-image: url("img/Open_folder.png");
+}
+
+.col{
+    text-align: center;
+}
+
+#text{
+    font-family: "win95";
+    font-size:11px;
+    margin-top: 0.25em;
+}
+
+.row{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+#top_text{
+    font-family: "win95";
+    font-size:small;
+    margin-top:-3.55em;
+    margin-left: 2.2em;
+    color:white;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+#down_text{
+    font-family: "win95";
+    font-size:small;
+    font-size: 11px;
+    margin-top:0.85em;
+    margin-left: 0.75em;
+}
+
+.icon {
+    cursor: pointer;
+    
+}
+
+
+
+/* Стиль для выделенной иконки */
+.icon1.selected,
+.icon2.selected,
+.icon3.selected,
+.icon4.selected,
+.icon5.selected {
+    outline: 1px dotted white;
+    background-color: #000080;
+    color: white;
+}
+
+#bot{
+    margin-top: 1.25em;
+}
